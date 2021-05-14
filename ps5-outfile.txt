@@ -1,0 +1,48 @@
+Infix Expression: 4 + 8 * 3
+Postfix Expression: 4 8 3 * + 
+Calculation successful
+28.000000
+
+
+Infix Expression: ( 4 + 8 ) * 3
+Postfix Expression: 4 8 + 3 * 
+Calculation successful
+36.000000
+
+
+Infix Expression: 6 + 9 + 4 ^ 2
+Postfix Expression: 6 9 + 4 2 ^ + 
+Calculation successful
+31.000000
+
+
+Infix Expression: 46 + ( 8 * 4 ) / 2
+Postfix Expression: 46 8 4 * 2 / + 
+Calculation successful
+62.000000
+
+
+Infix Expression: 7 ^ 2 * ( 25 + 10 / 5 ) - 13
+Postfix Expression: 7 2 ^ 25 10 5 / + * 13 - 
+Calculation successful
+1310.000000
+
+
+Infix Expression: ( 18 / 3 ) ^ 2 + ( ( 13 + 7 ) * 5 ^ 2 )
+Postfix Expression: 18 3 / 2 ^ 13 7 + 5 2 ^ * + 
+Calculation successful
+536.000000
+
+
+Infix Expression: ( 18 / 3 ) ^ 2 + ( ( 13 + 7 ) ) * 5 ^ 2 )
+Postfix Expression: 18 3 / 2 ^ 13 7 + 5 2 ^ * + 
+Parenthesis/Operator Mismatch! Returning top of stack :
+0.000000
+
+
+Infix Expression: ( 18 / 3 ) ^ 2 + ( ( 13 + 7 ) * 5 ? 2 )
+Postfix Expression: 18 3 / 2 ^ 13 7 + 5 * 2 ? + 
+Invalid Operator! Returning top of stack :
+36.000000
+
+
